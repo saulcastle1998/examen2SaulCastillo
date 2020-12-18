@@ -9,7 +9,7 @@
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
-		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 <body>
 	<header>
@@ -117,24 +117,59 @@
 </section>
 <section id="Products">
 	<div class="container">
-		<h3>Get Yours Today</h3>
+		<h2>Get Yours Today</h2>
 		<p>Lorem ipsum dolor sit amet consectetur adipiscing elit metus eleifend potenti, fames semper</p>
 		<br><br>
 		<div class="row" >
 			<article class="col-md-3 col-sm-12">
-				<img class="img-fluid" src="img/shop-img-1.jpg">
-				<h4>Cameo White 40X</h4>
+				<a data-fancybox="gallery" href="img/shop-img-1.jpg"><img class="img-fluid" src="img/shop-img-1.jpg"></a>
+				<br><br>
+				<p>&#9733;&#9733;&#9733; <span class="estrellaVacia">&#9733;&#9733;</span> </p>
+				<h5>Cameo White 40X</h5>
+				<p>$235.000 - $275.000</p>
+			</article>
+			<article class="col-md-3 col-sm-12">
+				<a data-fancybox="gallery" href="img/shop-img-2.jpg"><img class="img-fluid" src="img/shop-img-2.jpg"></a>
+				<br><br>
+				<p>&#9733;&#9733;&#9733; <span class="estrellaVacia">&#9733;&#9733;</span> </p>
+				<h5>White Linea FX2</h5>
+				<p> <s>$235.000</s> $180.000</p>
+			</article>
+			<article class="col-md-3 col-sm-12">
+				<a data-fancybox="gallery" href="img/shop-img-3.jpg"><img class="img-fluid" src="img/shop-img-3.jpg"></a>
+				<br><br>
+				<p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+				<h5>Gold Ribbon FX3</h5>
+				<p>$350.000</p>
+			</article>
+			<article class="col-md-3 col-sm-12">
+				<a data-fancybox="gallery" href="img/shop-img-4.jpg"><img class="img-fluid" src="img/shop-img-4.jpg"></a>
+				<br><br>
+				<p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+				<h5>ZZ Coper Edition</h5>
 				<p>$235.000</p>
 			</article>
+		</div>
+		
+	</div>
+</section>
+<section id="clients">
+	<div class="container">
+		
+		<div class="row" >
 			<article class="col-md-3 col-sm-12">
-				<img class="img-fluid" src="img/shop-img-2.jpg">
-
+					<img class="img-fluid" src="img/footer-image-1.png">
 			</article>
 			<article class="col-md-3 col-sm-12">
-				<img class="img-fluid" src="img/shop-img-3.jpg">
+					<img class="img-fluid" src="img/footer-image-2.png">
 			</article>
 			<article class="col-md-3 col-sm-12">
-				<img class="img-fluid" src="img/shop-img-4.jpg">
+				<img class="img-fluid" src="img/footer-image-3.png">
+			
+			</article>
+			<article class="col-md-3 col-sm-12">
+				<img class="img-fluid" src="img/footer-image-4.png">
+		
 			</article>
 		</div>
 		
@@ -142,7 +177,7 @@
 </section>
 	<footer>
 		<div class="container">
-			<p><span>Examen II Parcial - DWII</span> © All Rights Reserved - 2020</p>
+			<p><span>Examen II Parcial - Saúl Castillo</span> © All Rights Reserved - 2020</p>
 		</div>		
 	</footer>
 	
@@ -150,6 +185,12 @@
 
 
 <!-- js -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
